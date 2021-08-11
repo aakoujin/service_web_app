@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.mp5_s17511.gui.views.CustomerVehicleView">
+  <grid id="27dc6" binding="mainPannel" layout-manager="GridLayoutManager" row-count="10" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="409"/>
+    </constraints>
+    <properties>
+      <background color="-15489093"/>
+      <enabled value="true"/>
+      <foreground color="-15489093"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="b3748" class="javax.swing.JLabel" binding="InspectionStatusLabel">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="InspectionStatus"/>
+        </properties>
+      </component>
+      <component id="ff446" class="javax.swing.JButton" binding="needARepairButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Need a repair ?"/>
+        </properties>
+      </component>
+      <component id="bb25" class="javax.swing.JButton" binding="addVehicleButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add Vehicle"/>
+        </properties>
+      </component>
+      <component id="135c0" class="javax.swing.JButton" binding="appointmentButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Appointment"/>
+        </properties>
+      </component>
+      <component id="cf4d9" class="javax.swing.JButton" binding="inspectionHistoryButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Inspection history"/>
+        </properties>
+      </component>
+      <component id="e7677" class="javax.swing.JList" binding="selectVehicleJList">
+        <constraints>
+          <grid row="3" column="3" row-span="6" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <model/>
+        </properties>
+      </component>
+      <component id="732a5" class="javax.swing.JLabel" binding="InsuranceStatusLabel">
+        <constraints>
+          <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="InsuranceStatus"/>
+        </properties>
+      </component>
+      <component id="a60aa" class="javax.swing.JButton" binding="insuranceHistoryButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Insurance history"/>
+        </properties>
+      </component>
+      <component id="39bb8" class="javax.swing.JButton" binding="placeARequestButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Place a request"/>
+        </properties>
+      </component>
+      <component id="37198" class="javax.swing.JScrollBar" binding="scrollBar1" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="9" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="fbf4b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Select vehicle"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
